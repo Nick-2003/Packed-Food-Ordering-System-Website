@@ -18,6 +18,6 @@ $stmt->bindParam(':ID', $_POST[“ID”]);
 $stmt->bindParam(':house', $_POST[“house”]);
 $stmt->execute();
 $conn=null;
-?>
+?> 
 </body>
 </html>
