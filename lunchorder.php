@@ -19,5 +19,6 @@ $stmt->bindParam(':house', $_POST[“house”]);
 $stmt->execute();
 $conn=null;
 ?> 
+test
 </body>
 </html>
