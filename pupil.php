@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
-</head>
-<body> 
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
 <title>Pupil</title>
 </head>
 <body>
-<form action="lunchorder.php" method = “post”>
+<form action="addpupil.php" method = “post”>
 First Name:<input type="text" name="forename"><br>
 Last Name:<input type="text" name="surname"><br>
 ID:<input type="number" name="ID"><br>
