@@ -26,8 +26,8 @@ try{
 			break;
 	}
 $stmt = $conn->prepare("INSERT INTO Items (FoodID,FoodType,FoodName)VALUES (NULL,:foodtype,:foodname)");
-$stmt->bindParam(':foodtype', $_POST["foodtype"]);
-$stmt->bindParam(':foodname', $_POST["foodname"]);
+$stmt->bindParam(':foodtype', $_POST['foodtype']);
+$stmt->bindParam(':foodname', $_POST['foodname']);
 $stmt->execute();
 }
 catch(PDOException $e)
