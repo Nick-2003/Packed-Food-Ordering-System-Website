@@ -12,7 +12,7 @@ error_reporting(E_ALL);
 try{
 	include_once('connection.php');
 	array_map("htmlspecialchars", $_POST);
-	$stmt = $conn->prepare("INSERT INTO Lunch Item (OrderID,SandwichID,DrinkID,SnackID, OrderName)VALUES (:NULL,:foodid,:foodid,:foodid,:ordername)");
+	$stmt = $conn->prepare("INSERT INTO Lunch Item (OrderID,SandwichID,DrinkID,SnackID, OrderName)VALUES (:NULL,:sandwichid,:drinkid,:snackid,:ordername)");
 	$stmt->bindParam(':sandwichid', $_POST["sandwich"]);
 	$stmt->bindParam(':drinkid', $_POST["drink"]);
 	$stmt->bindParam(':snackid', $_POST["snack"]);

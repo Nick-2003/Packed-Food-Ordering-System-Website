@@ -15,7 +15,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
 }
 ?>
-</select>
+</select> <br>
 <select name = "drink">
 <?php
 include_once('connection.php');
@@ -26,7 +26,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
 }
 ?>
-</select>
+</select> <br>
 <select name = "snack">
 <?php
 include_once('connection.php');
@@ -37,7 +37,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
 }
 ?>
-</select>
+</select> <br>
 Order Name:<input type="text" name="ordername"><br>
 <input type="submit" value="Add Items">
 </form>
