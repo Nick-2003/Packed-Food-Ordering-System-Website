@@ -4,7 +4,7 @@
 <title>Pupil</title>
 </head>
 <body>
-<form action="addpupil.php" method = “post”>
+<form action="addpupil.php" method = "POST">
 First Name:<input type="text" name="forename"><br>
 Last Name:<input type="text" name="surname"><br>
 House:<input type="text" name="house"><br>
