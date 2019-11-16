@@ -14,8 +14,6 @@ $number=1;
 include_once('connection.php');
 array_map("htmlspecialchars", $_POST);
 try{
-	
-	
 	$stmt = $conn->prepare("INSERT INTO LunchItems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["sandwich"]);
@@ -26,8 +24,6 @@ catch(PDOException $e)
 		echo "error".$e->getMessage();
 	}
 try{
-	
-	
 	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["drink"]);
@@ -38,8 +34,6 @@ catch(PDOException $e)
 		echo "error".$e->getMessage();
 	}
 try{
-	
-	
 	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["snack"]);

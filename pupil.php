@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pupil</title>
+    <title>Pupil</title>
 </head>
 <body>
 <form action="addpupil.php" method = "POST">
