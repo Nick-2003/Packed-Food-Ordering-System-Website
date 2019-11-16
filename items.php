@@ -38,7 +38,6 @@ echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].
 }
 ?>
 </select> <br>
-Order Name:<input type="text" name="ordername"><br>
 <input type="submit" value="Add Items">
 </form>
 </body>

@@ -12,11 +12,9 @@ error_reporting(E_ALL);
 try{
 	include_once('connection.php');
 	array_map("htmlspecialchars", $_POST);
-	$stmt = $conn->prepare("INSERT INTO Lunch Item (OrderID,SandwichID,DrinkID,SnackID, OrderName)VALUES (:NULL,:sandwichid,:drinkid,:snackid,:ordername)");
-	$stmt->bindParam(':sandwichid', $_POST["sandwich"]);
-	$stmt->bindParam(':drinkid', $_POST["drink"]);
-	$stmt->bindParam(':snackid', $_POST["snack"]);
-	$stmt->bindParam(':ordername', $_POST["ordername"]);
+	$stmt = $conn->prepare("INSERT INTO lunchitems (OrderID,FoodID)VALUES (:orderid,:foodid)");
+	$stmt->bindParam(':orderid', $_POST["order"]);
+	$stmt->bindParam(':foodid', $_POST["food"]);
 	$stmt->execute();
 	}
 catch(PDOException $e)
