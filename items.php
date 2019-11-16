@@ -4,7 +4,7 @@
 	<title>Lunch Items</title>
 </head>
 <body>
-<form action="additems.php" method="post">
+<form action="additems.php" method="POST">
 <select name = "sandwich">
 <?php
 include_once('connection.php');

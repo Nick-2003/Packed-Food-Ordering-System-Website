@@ -16,7 +16,7 @@ array_map("htmlspecialchars", $_POST);
 try{
 	
 	
-	$stmt = $conn->prepare("INSERT INTO lunchitems (OrderID,FoodID)VALUES (:orderid,:foodid)");
+	$stmt = $conn->prepare("INSERT INTO LunchItems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["sandwich"]);
 	$stmt->execute();
@@ -28,7 +28,7 @@ catch(PDOException $e)
 try{
 	
 	
-	$stmt = $conn->prepare("INSERT INTO lunchitems (OrderID,FoodID)VALUES (:orderid,:foodid)");
+	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["drink"]);
 	$stmt->execute();
@@ -40,7 +40,7 @@ catch(PDOException $e)
 try{
 	
 	
-	$stmt = $conn->prepare("INSERT INTO lunchitems (OrderID,FoodID)VALUES (:orderid,:foodid)");
+	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["snack"]);
 	$stmt->execute();

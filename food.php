@@ -4,7 +4,7 @@
 <title>Food Selection</title>
 </head>
 <body>
-<form action="addfood.php" method = “post”>
+<form action="addfood.php" method = "POST">
 <input type="radio" name="food" value="Sandwich" checked> Sandwich<br>
 <input type="radio" name="food" value="Drink"> Drink<br>
 <input type="radio" name="food" value="Snack"> Snack<br>
