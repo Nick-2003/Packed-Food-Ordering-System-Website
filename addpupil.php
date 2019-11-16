@@ -12,7 +12,7 @@ echo $_POST["house"]."<br>";
 try{
 	include_once('connection.php');
 	array_map("htmlspecialchars", $_POST);
-	$stmt = $conn->prepare("INSERT INTO Pupil (Pupil_ID,PupilForename,PupilSuname, House)VALUES (NULL,:surname,:forename,:house)");
+	$stmt = $conn->prepare("INSERT INTO Pupil (Pupil_ID,PupilForename,PupilSurname, PupilHouse)VALUES (NULL,:surname,:forename,:house)");
 	$stmt->bindParam(':forename', $_POST['forename']);
 	$stmt->bindParam(':surname', $_POST['surname']);
 	$stmt->bindParam(':house', $_POST['house']);
