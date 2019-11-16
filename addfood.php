@@ -25,7 +25,7 @@ try{
 			$role=2;
 			break;
 	}
-$stmt = $conn->prepare("INSERT INTO items (FoodID,FoodType,FoodName)VALUES (NULL,:foodtype,:foodname)");
+$stmt = $conn->prepare("INSERT INTO Items (FoodID,FoodType,FoodName)VALUES (NULL,:foodtype,:foodname)");
 $stmt->bindParam(':foodtype', $_POST['foodtype']);
 $stmt->bindParam(':foodname', $_POST['foodname']);
 $stmt->execute();

@@ -13,7 +13,7 @@ try{
 	include_once('connection.php');
 	array_map("htmlspecialchars", $_POST);
 	$stmt = $conn->prepare("INSERT INTO pupil
-	(ID,Surname,Forename,House)VALUES (NULL,:surname,:forename,:house)");
+	(PupilID,Surname,Forename,House)VALUES (NULL,:surname,:forename,:house)");
 	$stmt->bindParam(':forename', $_POST['forename']);
 	$stmt->bindParam(':surname', $_POST['surname']);
 	$stmt->bindParam(':house', $_POST['house']);
