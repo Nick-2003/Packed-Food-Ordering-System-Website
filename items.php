@@ -12,7 +12,7 @@ $stmt = $conn->prepare("SELECT * FROM Items WHERE FoodType = 0 ORDER BY FoodName
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 {
-echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
+echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].'</option>');
 }
 ?>
 </select> <br>
@@ -23,7 +23,7 @@ $stmt = $conn->prepare("SELECT * FROM Items WHERE FoodType = 1 ORDER BY FoodName
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 {
-echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
+echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].'</option>');
 }
 ?>
 </select> <br>
@@ -34,7 +34,7 @@ $stmt = $conn->prepare("SELECT * FROM Items WHERE FoodType = 2 ORDER BY FoodName
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 {
-echo('<option value='.$row["FoodID"].'>'.$row["FoodType"].', '.$row["FoodName"].'</option>');
+echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].'</option>');
 }
 ?>
 </select> <br>
