@@ -11,6 +11,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 //sandwich
 $number=1;
+
 print_r($_POST);
 include_once('connection.php');
 array_map("htmlspecialchars", $_POST);
