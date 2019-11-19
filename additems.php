@@ -24,7 +24,7 @@ catch(PDOException $e)
 		echo "error".$e->getMessage();
 	}
 try{
-	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
+	$stmt = $conn->prepare("INSERT INTO LunchItems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["drink"]);
 	$stmt->execute();
@@ -34,7 +34,7 @@ catch(PDOException $e)
 		echo "error".$e->getMessage();
 	}
 try{
-	$stmt = $conn->prepare("INSERT INTO lunchitems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
+	$stmt = $conn->prepare("INSERT INTO LunchItems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
 	$stmt->bindParam(':orderid', $number);
 	$stmt->bindParam(':foodid', $_POST["snack"]);
 	$stmt->execute();
