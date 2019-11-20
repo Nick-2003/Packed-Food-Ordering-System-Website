@@ -4,7 +4,7 @@
 	<title>Lunch Orders</title>
 </head>
 <body>
-<form action="addorders.php" method="post">
+<form action="addorder.php" method="post">
 <select name = "pupil">
 <?php
 include_once('connection.php');
@@ -29,6 +29,14 @@ echo('<option value='.$row["Order_ID"].'>'.$row["Food_ID"].'</option>');
 </select>
 Collection Date:<input type="date" name="collectiondate"><br>
 Collection Time:<input type="time" name="collectiontime"><br>
+Food Prepared:<select name="foodprepared">
+		<option value="N">No</option>
+		<option value="Y">Yes</option>
+	</select>
+Food Collected:<select name="foodcollected">
+		<option value="N">No</option>
+		<option value="Y">Yes</option>
+	</select>
 <input type="submit" value="Add Order">
 </form>
 </body>
