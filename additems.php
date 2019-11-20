@@ -9,10 +9,9 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-//sandwich
-$number=1;
-
-print_r($_POST);
+$stmt = $conn->prepare("SELECT * FROM OrderNum");
+$stmt->execute();
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 include_once('connection.php');
 array_map("htmlspecialchars", $_POST);
 try{
