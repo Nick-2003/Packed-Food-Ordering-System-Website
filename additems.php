@@ -47,8 +47,10 @@ catch(PDOException $e)
 		echo "error".$e->getMessage();
 	}
 try{ 
-	$number = $number + 1;
-	$sql = "UPDATE OrderNum SET OrderNumber='$number' WHERE OrderNumber= $number"; 
+	$stmt = $conn->prepare("UPDATE OrderNum SET OrderNumber= :number1 WHERE OrderNumber= :number2"); 
+	$stmt->bindParam(':number1', $number+1);
+	$stmt->bindParam(':number2', $number);
+	$stmt->execute();
 } 
 catch(PDOException $e)
 	{
