@@ -48,7 +48,7 @@ catch(PDOException $e)
 	}
 try{ 
 	$number = $number + 1;
-	$sql = "UPDATE OrderNum SET OrderNumber=':$number' WHERE OrderNumber= $number"; 
+	$sql = "UPDATE OrderNum SET OrderNumber='$number' WHERE OrderNumber= $number"; 
 } 
 catch(PDOException $e)
 	{
