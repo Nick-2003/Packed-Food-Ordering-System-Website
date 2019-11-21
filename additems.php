@@ -9,10 +9,10 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+include_once('connection.php');
 $stmt = $conn->prepare("SELECT * FROM OrderNum");
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
-include_once('connection.php');
 array_map("htmlspecialchars", $_POST);
 try{
 	$stmt = $conn->prepare("INSERT INTO LunchItems (Order_ID,Food_ID)VALUES (:orderid,:foodid)");
