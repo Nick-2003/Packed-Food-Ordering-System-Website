@@ -4,15 +4,15 @@
 	<title>Lunch Orders</title>
 </head>
 <body>
-<form action="addorder.php" method="post">
+<form action="addorders.php" method="post">
 <select name = "pupil">
 <?php
 include_once('connection.php');
-$stmt = $conn->prepare("SELECT * FROM Pupil ORDER BY Surname ASC");
+$stmt = $conn->prepare("SELECT * FROM Pupil ORDER BY PupilSurname ASC");
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 {
-echo('<option value='.$row["Pupil_ID"].'>'.$row["Surname"].', '.$row["Forename"].'</option>');
+echo('<option value='.$row["Pupil_ID"].'>'.$row["PupilSurname"].', '.$row["PupilForename"].'</option>');
 }
 ?>
 </select>
