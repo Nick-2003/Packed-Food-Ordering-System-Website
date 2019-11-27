@@ -19,7 +19,7 @@ echo('<option value='.$row["Pupil_ID"].'>'.$row["PupilSurname"].', '.$row["Pupil
 <select name = "order">
 <?php
 include_once('connection.php');
-$stmt = $conn->prepare("SELECT DISTINCT * FROM LunchItems ORDER BY Food_ID ASC");
+$stmt = $conn->prepare("SELECT DISTINCT Order_ID FROM LunchItems ORDER BY Order_ID ASC");
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 {
