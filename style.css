@@ -1,0 +1,23 @@
+h1{
+    color: orange;
+    text-align: left;
+    text-decoration: underline;
+    text-justify: inter-word;
+    text-overflow: ellipsis;
+    }
+    
+form{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+    
+body{
+    background-color: #8080FF;
+    background-clip: border-box;
+    background-origin: content-box;
+    background-position: center;
+    background-repeat: repeat-x;
+}
