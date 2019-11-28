@@ -10,9 +10,5 @@ form{
 }
     
 body{
-    background-color: #8080FF;
-    background-clip: border-box;
-    background-origin: content-box;
-    background-position: center;
-    background-repeat: repeat-x;
+    background-color: #6060FF;
 }
