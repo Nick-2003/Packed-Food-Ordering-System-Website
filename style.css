@@ -11,8 +11,11 @@ form{
     
 body{
     background-color: #6060FF;
+<<<<<<< HEAD
     background-clip: border-box;
     background-origin: content-box;
     background-position: center;
     background-repeat: repeat-x;
+=======
+>>>>>>> 63d6777e7ed9b31722bc965651e42589649021f7
 }
