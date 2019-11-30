@@ -28,6 +28,7 @@ echo('<option value='.$row["Order_ID"].'>'.$row["Order_ID"].'</option>');
 }
 ?>
 </select>
+<br>
 Collection Date:<input type="date" name="collectiondate"><br>
 Collection Time:<input type="time" name="collectiontime"><br>
 Food Prepared:<select name="foodprepared">
@@ -38,6 +39,7 @@ Food Collected:<select name="foodcollected">
 		<option value="N">No</option>
 		<option value="Y">Yes</option>
 	</select>
+<br>
 <input type="submit" value="Add Order">
 </form>
 </body>

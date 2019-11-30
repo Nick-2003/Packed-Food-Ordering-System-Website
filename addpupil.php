@@ -5,7 +5,7 @@
 </head>
 <body> 
 <?php
-//header('Location: pupil.php');
+header('Location: pupil.php');
 echo $_POST["forename"]."<br>";
 echo $_POST["surname"]."<br>";
 echo $_POST["house"]."<br>";

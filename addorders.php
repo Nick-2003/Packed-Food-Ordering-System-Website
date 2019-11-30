@@ -5,7 +5,7 @@
 </head>
 <body> 
 <?php
-//header("Refresh:2; url= orders.php");
+header("Refresh:2; url= orders.php");
 echo $_POST["collectiondate"]."<br>";
 echo $_POST["collectiontime"]."<br>";
 echo $_POST["foodprepared"]."<br>";

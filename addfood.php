@@ -5,7 +5,7 @@
 </head>
 <body> 
 <?php
-//header('Location: food.php');
+header('Location: food.php');
 echo $_POST["foodtype"]."<br>";
 echo $_POST["foodname"]."<br>";
 ini_set('display_errors', 1);
