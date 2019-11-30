@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Food Selection</title>
+    <title>Food Selection</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <form action="addfood.php" method = "POST">

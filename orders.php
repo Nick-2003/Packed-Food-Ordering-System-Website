@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Lunch Orders</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <form action="addorders.php" method="post">

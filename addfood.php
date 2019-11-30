@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Adding Food</title>
+	<title>Adding Food</title>
 </head>
 <body> 
 <?php
