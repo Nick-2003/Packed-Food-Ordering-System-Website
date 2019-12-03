@@ -42,5 +42,8 @@ Food Collected:<select name="foodcollected">
 <br>
 <input type="submit" value="Add Order">
 </form>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php">Add Pupil</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/items.php">Add Items</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Homepage</a></p>
 </body>
 </html>

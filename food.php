@@ -10,7 +10,10 @@
 <input type="radio" name="foodtype" value="Drink"> Drink<br>
 <input type="radio" name="foodtype" value="Snack"> Snack<br>
 Food Name:<input type="text" name="foodname"><br>
-<input type="submit" value="Submit">
+<input type="submit" value="Add Food">
 </form>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php">Add Pupil</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/items.php">Add Items</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Homepage</a></p>
 </body>
 </html>

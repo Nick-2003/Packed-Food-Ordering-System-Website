@@ -41,5 +41,8 @@ echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].
 </select> <br>
 <input type="submit" value="Add Items">
 </form>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Add Food</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/orders.php">Add Order</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Homepage</a></p>
 </body>
 </html>
