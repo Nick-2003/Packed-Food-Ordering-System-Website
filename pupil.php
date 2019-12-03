@@ -12,6 +12,6 @@ House:<input type="text" name="house"><br>
 <input type="submit" value="Add Pupil">
 </form>
 <p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Add Food</a></p>
-<p><a href=http://localhost/Packed-Food-Ordering-System-Website/">Homepage</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/">Homepage</a></p>
 </body>
 </html>
