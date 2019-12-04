@@ -14,9 +14,9 @@ House:<input type="text" name="house"><br>
 <TABLE width="100%" border="2" cellpadding="10" cellspacing="2">
     <TBODY>
         <TR>
-            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php">Add Food</a></p></TD>
-            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/Orders.php">Add Order</a></p></TD>
-            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/">Homepage</a></p></TD>
+            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php" class="button">Add Food</a></p></TD>
+            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/Orders.php" class="button">Add Order</a></p></TD>
+            <TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/" class="button">Homepage</a></p></TD>
         </TR>
     </TBODY>
 </TABLE>

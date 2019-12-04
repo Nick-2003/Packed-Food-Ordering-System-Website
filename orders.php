@@ -42,14 +42,8 @@ Food Collected:<select name="foodcollected">
 <br>
 <input type="submit" value="Add Order">
 </form>
-<TABLE width="100%" border="2" cellpadding="10" cellspacing="2">
-    <TBODY>
-		<TR>
-			<TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php">Add Pupil</a></p></TD>
-			<TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/items.php">Add Items</a></p></TD>
-			<TD><p><a href="http://localhost/Packed-Food-Ordering-System-Website/">Homepage</a></p></TD>
-		</TR>
-    </TBODY>
-</TABLE>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php" class="button">Add Pupil</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/items.php" class="button">Add Items</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/" class="button">Homepage</a></p>
 </body>
 </html>
