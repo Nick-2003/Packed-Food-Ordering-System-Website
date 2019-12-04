@@ -13,8 +13,8 @@
 Food Name:<input type="text" name="foodname"><br>
 <input type="submit" value="Add Food">
 </form>
-<p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php" class="button">Add Pupil</a></p>
 <p><a href="http://localhost/Packed-Food-Ordering-System-Website/items.php" class="button">Add Items</a></p>
+<p><a href="http://localhost/Packed-Food-Ordering-System-Website/pupil.php" class="button">Add Pupil</a></p>
 <p><a href="http://localhost/Packed-Food-Ordering-System-Website/" class="button">Homepage</a></p>
 </body>
 </html>
