@@ -5,6 +5,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<h1>Lunch Orders</h1>
 <form action="addorders.php" method="post">
 <select name = "pupil">
 <?php

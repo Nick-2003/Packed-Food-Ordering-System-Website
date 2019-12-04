@@ -5,6 +5,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<h1>Food Selection</h1>
 <form action="addfood.php" method = "POST">
 <input type="radio" name="foodtype" value="Sandwich" checked> Sandwich<br>
 <input type="radio" name="foodtype" value="Drink"> Drink<br>

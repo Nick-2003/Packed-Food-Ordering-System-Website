@@ -10,6 +10,9 @@ form{
 body{
     background-color: #4040FF;
 }
+h1{
+    color: #FFFFFF;
+}
 input{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20pt;
@@ -40,4 +43,6 @@ a.button {
     appearance: button;
     text-decoration: none;
     color: #202020;
+    height:50px;
+    width:33%;
 }
