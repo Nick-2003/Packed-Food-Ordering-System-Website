@@ -36,6 +36,7 @@ Food Prepared:<select name="foodprepared">
 		<option value="N">No</option>
 		<option value="Y">Yes</option>
 	</select>
+<br>
 Food Collected:<select name="foodcollected">
 		<option value="N">No</option>
 		<option value="Y">Yes</option>
