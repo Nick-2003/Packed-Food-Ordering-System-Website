@@ -12,6 +12,12 @@ body{
 }
 h1{
     color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-variant: small-caps;
+    text-align: left;
+    text-justify: inter-word;
+    text-overflow: ellipsis;
 }
 input{
     font-family: 'Times New Roman', Times, serif;
