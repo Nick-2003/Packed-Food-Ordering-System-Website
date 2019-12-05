@@ -39,7 +39,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].'</option>');
 }
 ?>
-</select> <br>
+</select><br>
 <input type="submit" value="Add Items">
 </form>
 <p><a href="http://localhost/Packed-Food-Ordering-System-Website/orders.php" class="button">Add Order</a></p>
