@@ -39,6 +39,15 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
 echo('<option value='.$row["Food_ID"].'>'.$row["Food_ID"].', '.$row["FoodName"].'</option>');
 }
 ?>
+<?php
+include_once('connection.php');
+$stmt = $conn->prepare("SELECT DISTINCT OrderNumber FROM OrderNum ORDER BY OrderNumber OrderNumber");
+$stmt->execute();
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
+{
+echo('<option value='.$row["OrderNumber"].'>'.$row["OrderNumber"].'</option>');
+}
+?>
 </select><br>
 <input type="submit" value="Add Items">
 </form>
