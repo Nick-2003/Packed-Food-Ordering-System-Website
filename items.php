@@ -53,8 +53,8 @@ echo('<option value='.$row["OrderNumber"].'>'.$row["OrderNumber"].'</option>');
 </p>
 <input type="submit" value="Add Items">
 </form>
-<p><a href="http://localhost/Packed-Food-Ordering-System-Website/orders.php" class="button">Add Order</a></p>
-<p><a href="http://localhost/Packed-Food-Ordering-System-Website/food.php" class="button">Add Food</a></p>
-<p><a href="http://localhost/Packed-Food-Ordering-System-Website/" class="button">Homepage</a></p>
+<p><a href="/Packed-Food-Ordering-System-Website/orders.php" class="button">Add Order</a></p>
+<p><a href="/Packed-Food-Ordering-System-Website/food.php" class="button">Add Food</a></p>
+<p><a href="/Packed-Food-Ordering-System-Website/" class="button">Homepage</a></p>
 </body>
 </html>
